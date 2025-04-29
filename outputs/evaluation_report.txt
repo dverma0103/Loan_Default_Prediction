@@ -1,0 +1,19 @@
+===== Random Forest =====
+              precision    recall  f1-score   support
+
+           0       0.98      0.91      0.94      2120
+           1       0.87      0.97      0.91      1295
+
+    accuracy                           0.93      3415
+   macro avg       0.92      0.94      0.93      3415
+weighted avg       0.94      0.93      0.93      3415
+
+===== XGBoost =====
+              precision    recall  f1-score   support
+
+           0       0.95      0.91      0.93      2120
+           1       0.86      0.92      0.89      1295
+
+    accuracy                           0.92      3415
+   macro avg       0.91      0.92      0.91      3415
+weighted avg       0.92      0.92      0.92      3415
