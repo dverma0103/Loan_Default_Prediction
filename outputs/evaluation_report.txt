@@ -1,19 +1,28 @@
 ===== Random Forest =====
               precision    recall  f1-score   support
 
-           0       0.98      0.91      0.94      2120
-           1       0.87      0.97      0.91      1295
+           0       0.98      0.89      0.93       738
+           1       0.87      0.98      0.92       543
 
-    accuracy                           0.93      3415
-   macro avg       0.92      0.94      0.93      3415
-weighted avg       0.94      0.93      0.93      3415
+    accuracy                           0.93      1281
+   macro avg       0.92      0.93      0.93      1281
+weighted avg       0.93      0.93      0.93      1281
 
 ===== XGBoost =====
               precision    recall  f1-score   support
 
-           0       0.95      0.91      0.93      2120
-           1       0.86      0.92      0.89      1295
+           0       0.96      0.90      0.93       738
+           1       0.88      0.95      0.91       543
 
-    accuracy                           0.92      3415
-   macro avg       0.91      0.92      0.91      3415
-weighted avg       0.92      0.92      0.92      3415
+    accuracy                           0.92      1281
+   macro avg       0.92      0.92      0.92      1281
+weighted avg       0.92      0.92      0.92      1281
+===== Logistic Regression =====
+              precision    recall  f1-score   support
+
+           0       0.81      0.79      0.80       738
+           1       0.72      0.75      0.73       543
+
+    accuracy                           0.77      1281
+   macro avg       0.76      0.77      0.77      1281
+weighted avg       0.77      0.77      0.77      1281
