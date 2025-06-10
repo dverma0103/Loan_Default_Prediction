@@ -7,7 +7,7 @@ import numpy as np
 import joblib
 
 # Load model and scaler
-model = joblib.load(r"C:\Users\Deepak Verma\OneDrive\Documents\Loan_Default_Prediction\models\xgb_model.pkl")
+model = joblib.load(r"C:\Users\Deepak Verma\OneDrive\Documents\Loan_Default_Prediction\models\rf_model.pkl")
 scaler = joblib.load(r"C:\Users\Deepak Verma\OneDrive\Documents\Loan_Default_Prediction\models\preprocessing_pipeline.pkl")
 
 # Set page config
